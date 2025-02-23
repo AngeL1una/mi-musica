@@ -7,7 +7,6 @@ import { Providers } from "./providers";
 
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
-import { Navbar } from "@/components/navbar";
 
 export const metadata: Metadata = {
   title: {
@@ -43,7 +42,6 @@ export default function RootLayout({
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
           <div className="relative flex flex-col h-screen">
-          
             <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
               {children}
             </main>
@@ -55,7 +53,7 @@ export default function RootLayout({
                 title="heroui.com homepage"
               >
                 <span className="text-default-600">Derechos reservados</span>
-                <p className="text-primary text-red-500">Angel Luna Lugo</p>
+                <p className=" text-red-500">Angel Luna Lugo</p>
               </Link>
             </footer>
           </div>

@@ -1,5 +1,5 @@
 "use client";
-import {User} from "@heroui/react";
+import { User } from "@heroui/react";
 
 export default function App() {
   return (
