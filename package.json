@@ -16,6 +16,7 @@
   "@heroui/link": "2.2.11",
   "@heroui/listbox": "2.3.13",
   "@heroui/navbar": "2.2.12",
+  "@heroui/react": "^2.7.2",
   "@heroui/snippet": "2.2.14",
   "@heroui/switch": "2.2.12",
   "@heroui/system": "2.4.10",
@@ -28,7 +29,10 @@
   "next": "15.0.4",
   "next-themes": "^0.4.4",
   "react": "18.3.1",
-  "react-dom": "18.3.1"
+  "react-dom": "18.3.1",
+  "rellax": "^1.12.1",
+  "three": "^0.173.0",
+  "vanta": "^0.5.24"
  },
  "devDependencies": {
   "@next/eslint-plugin-next": "15.0.4",
