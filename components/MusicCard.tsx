@@ -1,7 +1,12 @@
 "use client";
 import { Card, CardHeader, CardBody, Image } from "@heroui/react";
 
-export default function MusicCard({ artist, image }) {
+interface MusicCardProps {
+  artist: string;
+  image: string;
+}
+
+export default function MusicCard({ artist, image }: MusicCardProps) {
   return (
     <Card className="py-4">
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">

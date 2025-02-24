@@ -1,4 +1,3 @@
-import Carta from "@/components/Card";
 import MusicCard from "@/components/MusicCard";
 import Cartas from "@/components/Cartas";
 import Tarjeta from "@/components/Tarjetas";
