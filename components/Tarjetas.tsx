@@ -5,8 +5,8 @@ import { Card, CardBody, Image, Button, Slider } from "@heroui/react";
 
 export const HeartIcon = ({
   size = 24,
-  width,
-  height,
+  width = 24,
+  height  = 24,
   strokeWidth = 1.5,
   fill = "none",
   ...props
@@ -33,7 +33,7 @@ export const HeartIcon = ({
   );
 };
 
-export const PauseCircleIcon = ({ size = 24, width, height, ...props }) => {
+export const PauseCircleIcon = ({ size = 24, width = 24  , height  = 24, ...props }) => {
   return (
     <svg
       aria-hidden="true"
@@ -53,7 +53,7 @@ export const PauseCircleIcon = ({ size = 24, width, height, ...props }) => {
   );
 };
 
-export const NextIcon = ({ size = 24, width, height, ...props }) => {
+export const NextIcon = ({ size = 24, width = 24  , height  = 24, ...props }) => {
   return (
     <svg
       aria-hidden="true"
@@ -77,7 +77,7 @@ export const NextIcon = ({ size = 24, width, height, ...props }) => {
   );
 };
 
-export const PreviousIcon = ({ size = 24, width, height, ...props }) => {
+export const PreviousIcon = ({ size = 24, width = 24  , height  = 24, ...props }) => {
   return (
     <svg
       aria-hidden="true"
@@ -101,7 +101,7 @@ export const PreviousIcon = ({ size = 24, width, height, ...props }) => {
   );
 };
 
-export const RepeatOneIcon = ({ size = 24, width, height, ...props }) => {
+export const RepeatOneIcon = ({ size = 24, width = 24  , height  = 24, ...props }) => {
   return (
     <svg
       aria-hidden="true"
@@ -129,7 +129,7 @@ export const RepeatOneIcon = ({ size = 24, width, height, ...props }) => {
   );
 };
 
-export const ShuffleIcon = ({ size = 24, width, height, ...props }) => {
+export const ShuffleIcon = ({ size = 24, width = 24  , height  = 24, ...props }) => {
   return (
     <svg
       aria-hidden="true"
